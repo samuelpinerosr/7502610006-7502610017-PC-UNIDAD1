@@ -12,8 +12,7 @@ public class Coche {
         this.modelo = modelo;
         contadorCoches++;
     }
-
-
+    
     public static void mostrarContador() {
         System.out.println("Total de coches creados: " + contadorCoches);
     }
